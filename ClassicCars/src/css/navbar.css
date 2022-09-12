@@ -1,0 +1,33 @@
+/* Navbar */
+.navbar {
+    width: 15vw;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: -15vw;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0 0 4rem;
+    z-index: 10;
+    transition: left 0.5s;
+  }
+  
+  .navbar.change {
+    left: 0;
+  }
+  
+  .navbar-link {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 2rem 0;
+    color: #777;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    transition: color 0.3s;
+  }
+  
+  .navbar-link:hover {
+    color: #111;
+  }
+  /* End of Navbar */
